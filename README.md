@@ -20,6 +20,7 @@ unofficial Audiobook for easy listening on any device, in any app.
    (the JavaScript Console Inspector)
    <img width="954" alt="Screenshot 2023-02-06 at 6 19 00 AM" src="https://user-images.githubusercontent.com/122831/216982130-fa51eea2-f5d9-4a4b-9ee7-5f6c36c8d158.png">
 3. Copy and paste one of the scripts below - curl or PowerShell output:
+  
    curl:
    ```js
    var script = document.createElement('script');
@@ -34,7 +35,7 @@ unofficial Audiobook for easy listening on any device, in any app.
    ```
    <img width="954" alt="Screenshot 2023-02-06 at 6 22 58 AM" src="https://user-images.githubusercontent.com/122831/216982726-f9056e2b-3daf-4c86-9263-c67bf6968804.png">
    <img width="954" alt="Screenshot 2023-02-06 at 6 23 48 AM" src="https://user-images.githubusercontent.com/122831/216982733-d165a4c0-2d49-4909-b25d-2dc00cbb82b1.png">
-5. Download each talk by either:
+6. Download each talk by either:
      - Painstakingly download each talk with the provided links
      - Or copy and paste the `curl` commands into `Terminal.app`
    <img width="848" alt="Screenshot 2023-02-06 at 6 12 23 AM" src="https://user-images.githubusercontent.com/122831/216980391-d62e62cc-31b1-4540-b4d3-349d4f4437c0.png">
