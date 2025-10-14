@@ -15,7 +15,7 @@ var CARDS_SELECTOR = "nav ul.doc-map ul.doc-map li a";
 var TITLE_SELECTOR = "h4";
 var SESSION_SUFFIX = "Session";
 var MP3_PAGE_STATE_RE = /window.__INITIAL_STATE__\s*=\s*"([^"]+)"/;
-var MP3_CDN_URL_RE = /("https:[^"]*cdn[^"]*[^"]*mp3[^"]*")/g;
+var MP3_CDN_URL_RE = /("https:[^"]*assets[^"]*[^"]*mp3[^"]*")/g;
 
 function parseTalk($session, $talk, talkNumber, domListIndex) {
     // TODO add session info
