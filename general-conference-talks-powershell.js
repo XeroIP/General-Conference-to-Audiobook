@@ -218,7 +218,7 @@ async function main() {
 
         let filename = parseNameByIndex(
             mp3Url,
-            `${talk.session_number}-${talk.talk_number}`
+            `${talk.session_number}-${talk.talk_number}-${talk.title}-${talk.speaker}`
         );
         let curl = [
             `Invoke-WebRequest -Uri "${mp3Url}" -UserAgent "ChJCDev/1.0" -OutFile "${filename}"`,
