@@ -221,7 +221,7 @@ async function main() {
             `${talk.session_number}-${talk.talk_number}`
         );
         let curl = [
-            `Invoke-WebRequest -Uri "${filename}" -UserAgent "ChJCDev/1.0" -OutFile "${mp3Url}"`,
+            `Invoke-WebRequest -Uri "${mp3Url}" -UserAgent "ChJCDev/1.0" -OutFile "${filename}"`,
         ].join("\n");
         curls.push(curl);
 
