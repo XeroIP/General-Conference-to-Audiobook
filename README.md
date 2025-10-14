@@ -22,7 +22,7 @@ unofficial Audiobook for easy listening on any device, in any app.
 3. Copy and Paste this script into the Console:
    ```js
    var script = document.createElement('script');
-   script.src="https://churchofjesuschristdev.github.io/General-Conference-to-Audiobook/general-conference-talks.js";
+   script.src="https://xeroip.github.io/General-Conference-to-Audiobook/general-conference-talks.js";
    document.body.append(script);
    ```
    <img width="954" alt="Screenshot 2023-02-06 at 6 22 58 AM" src="https://user-images.githubusercontent.com/122831/216982726-f9056e2b-3daf-4c86-9263-c67bf6968804.png">
